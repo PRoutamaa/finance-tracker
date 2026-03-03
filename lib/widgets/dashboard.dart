@@ -31,7 +31,7 @@ class Dashboard extends StatelessWidget {
               Expanded(
                 child: Obx(
                   () => _SummaryCard(
-                    title: 'Overall incomes',
+                    title: 'Overall incomes, 30 days',
                     amount: controller.totalIncome,
                     icon: Icons.arrow_downward,
                     color: Colors.green,
@@ -43,7 +43,7 @@ class Dashboard extends StatelessWidget {
               Expanded(
                 child: Obx(
                   () => _SummaryCard(
-                    title: 'Overall expenses',
+                    title: 'Overall expenses, 30 days',
                     amount: controller.totalExpense,
                     icon: Icons.arrow_upward,
                     color: Colors.red,
@@ -59,7 +59,7 @@ class Dashboard extends StatelessWidget {
             height: 120,
             child: Obx(
                   () => _SummaryCard(
-                    title: 'Balance',
+                    title: 'Balance, 30 days',
                     amount: controller.balance,
                     icon: Icons.account_circle_outlined,
                     color: Colors.blueAccent,
