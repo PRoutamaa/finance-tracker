@@ -41247,14 +41247,14 @@ p=A.L(a).ok.f
 o=t.p
 return new A.bd(B.nD,A.c5(A.c([A.bq(q,r,r,r,p==null?r:p.Gn(B.aS),r,r,r),A.c8(r,20,r),A.de(A.c([A.cT(new A.hQ(new A.a1w(s),r),1),A.c8(r,r,16),A.cT(new A.hQ(new A.a1x(s),r),1)],o),B.C,B.q,B.z,0,r),A.c8(r,16,r),A.c8(new A.hQ(new A.a1y(s),r),120,r),A.c8(r,16,r),A.de(A.c([A.cT(A.avn(A.c8(A.fQ(A.bq("Add new Transaction",r,r,r,r,r,r,r),r,r),100,r),new A.a1z(s)),1)],o),B.C,B.q,B.z,0,r)],o),B.al,B.q,B.z,0,B.G),r)}}
 A.a1w.prototype={
-$0(){return new A.o4("Overall incomes, 30 days",this.a.gY_(),B.od,B.hY,B.hY.oP(0.1),null)},
+$0(){return new A.o4("Overall incomes",this.a.gY_(),B.od,B.hY,B.hY.oP(0.1),null)},
 $S:117}
 A.a1x.prototype={
-$0(){return new A.o4("Overall expenses, 30 days",this.a.gXZ(),B.oe,B.hX,B.hX.oP(0.1),null)},
+$0(){return new A.o4("Overall expenses",this.a.gXZ(),B.oe,B.hX,B.hX.oP(0.1),null)},
 $S:117}
 A.a1y.prototype={
 $0(){var s=this.a
-return new A.o4("Balance, 30 days",s.gY_()-s.gXZ(),B.G9,B.uM,B.fd.oP(0.1),null)},
+return new A.o4("Balance",s.gY_()-s.gXZ(),B.G9,B.uM,B.fd.oP(0.1),null)},
 $S:117}
 A.a1z.prototype={
 $0(){this.a.ch.sn(0,1)
