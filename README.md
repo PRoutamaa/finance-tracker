@@ -28,7 +28,7 @@ This page shows all the transactions made as a list
 
 To run the app locally, clone the repo from github: https://github.com/PRoutamaa/finance-tracker
 
-run the app from the root of the project with: flutter run -d chrome
+run the app from the root of the project with: flutter run -t src/main.dart -d chrome
 
 ## URL
 
