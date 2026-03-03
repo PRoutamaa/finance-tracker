@@ -1,5 +1,5 @@
 import 'dart:ui';
-import 'package:finance_tracker/widgets/dashboard.dart';
+import 'widgets/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';

@@ -1,4 +1,4 @@
-import 'package:finance_tracker/models/data.dart';
+import '../models/data.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
